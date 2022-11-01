@@ -54,9 +54,9 @@
   line-height: 1.87;
   align-items: center;
   letter-spacing: 0.06em;
-}
 
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--main-title-color);
+  &:hover,
+  &:focus {
+    color: var(--main-title-color);
+  }
 }

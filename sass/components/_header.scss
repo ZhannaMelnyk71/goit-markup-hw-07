@@ -32,6 +32,11 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  & :hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .navigation-link,
@@ -43,38 +48,25 @@
 
 .navigation-link.current {
   position: relative;
-}
-
-.navigation-link.current::after {
-  content: "";
-
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  border-radius: 2px;
-}
-
-.navigation-link.current {
   color: var(--accent-color);
-}
 
-.navigation-list :hover,
-.navigation-list :focus {
-  color: var(--accent-color);
+  &::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+  }
 }
 
 .contacts-list {
   margin-left: auto;
-}
-
-.contacts-list :hover,
-.contacts-list :focus {
-  color: var(--accent-color);
 }
 
 .contacts-link {

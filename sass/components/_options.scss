@@ -13,11 +13,12 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-}
 
-.option-box:hover .option-title {
+  &:hover .option-title {
   transform: translatey(0);
 }
+}
+
 
 .option-title {
   position: absolute;

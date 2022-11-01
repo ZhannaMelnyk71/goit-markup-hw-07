@@ -4,18 +4,18 @@
 }
 
 .advantages-item {
-  width: calc((100%-90px) / 4);
-}
+  width: calc((100% - 90px) / 4);
 
-.advantages-item::before {
-  content: "";
-  display: block;
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70px 70px;
+  &::before {
+    content: "";
+    display: block;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px 70px;
+  }
 }
 
 .icon-antenna::before {

@@ -1,3 +1,11 @@
+@import "./utils/vars";
+@import "./base/reset";
+@import "./base/common";
+@import "./utils/vis-hidden";
+@import "./base/container";
+
+@import "./components/modal";
+
 @import "./components/header";
 @import "./components/hero";
 @import "./components/advantages";
@@ -5,3 +13,6 @@
 @import "./components/team";
 @import "./components/clients";
 @import "./components/footer";
+
+@import "./components/portfolio-filter";
+@import "./components/portfolio-cards";
