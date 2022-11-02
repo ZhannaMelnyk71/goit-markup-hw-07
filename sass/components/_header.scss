@@ -15,10 +15,9 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
-
-.logo-part-header {
-  color: var(--main-title-color);
+  span {
+    color: var(--main-title-color);
+  }
 }
 
 .navigation-list,

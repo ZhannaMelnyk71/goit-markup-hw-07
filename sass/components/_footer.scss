@@ -22,10 +22,9 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-}
-
-.logo-part-footer {
-  color: var(--second-title-color);
+  span {
+    color: var(--second-title-color);
+  }
 }
 
 .footer-contacts {
@@ -57,7 +56,7 @@
 }
 
 .footer-soc-title,
-.form-text {
+.form-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;

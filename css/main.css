@@ -327,8 +327,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-
-.logo-part-header {
+.logo-header span {
   color: var(--main-title-color);
 }
 
@@ -651,8 +650,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-
-.logo-part-footer {
+.logo-footer span {
   color: var(--second-title-color);
 }
 
@@ -683,7 +681,7 @@ body {
 }
 
 .footer-soc-title,
-.form-text {
+.form-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
