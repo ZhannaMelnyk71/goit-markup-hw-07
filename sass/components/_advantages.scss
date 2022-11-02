@@ -1,9 +1,9 @@
-.advantages {
+.features {
   display: flex;
   gap: 30px;
 }
 
-.advantages-item {
+.features__item {
   width: calc((100% - 90px) / 4);
 
   &::before {
@@ -18,23 +18,23 @@
   }
 }
 
-.icon-antenna::before {
+.features__icon-antenna::before {
   background-image: url(../images/icons/antenna.svg);
 }
 
-.icon-clock::before {
+.features__icon-clock::before {
   background-image: url(../images/icons/clock.svg);
 }
 
-.icon-diagram::before {
+.features__icon-diagram::before {
   background-image: url(../images/icons/diagram.svg);
 }
 
-.icon-astranaut::before {
+.features__icon-astranaut::before {
   background-image: url(../images/icons/astronaut.svg);
 }
 
-.advantages-title {
+.features__title {
   color: var(--main-title-color);
   font-weight: 700;
   font-size: 14px;
@@ -43,7 +43,7 @@
   margin-bottom: 10px;
   margin-top: 30px;
 }
-.advantages-text {
+.features__text {
   color: var(--text-color);
   font-weight: 400;
   font-size: 14px;

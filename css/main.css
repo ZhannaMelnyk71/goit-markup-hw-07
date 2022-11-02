@@ -309,17 +309,17 @@ body {
   background-color: #188ce8;
 }
 
-.header-container,
-.header-navigation {
+.header__container,
+.navigation {
   display: flex;
   align-items: center;
 }
 
-.header-container {
+.header__container {
   border-bottom: 1px solid #ececec;
 }
 
-.logo-header {
+.navigation__logo {
   margin-right: 93px;
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -327,12 +327,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
-.logo-header span {
+.navigation__logo span {
   color: var(--main-title-color);
 }
 
-.navigation-list,
-.contacts-list {
+.meny,
+.contacts {
   display: flex;
   gap: 50px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -341,24 +341,24 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation-list :hover, .navigation-list:focus,
-.contacts-list :hover,
-.contacts-list:focus {
+.meny :hover, .meny:focus,
+.contacts :hover,
+.contacts:focus {
   color: var(--accent-color);
 }
 
-.navigation-link,
-.contacts-link {
+.meny__link,
+.contacts__link {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--main-title-color);
 }
 
-.navigation-link.current {
+.meny__link.current {
   position: relative;
   color: var(--accent-color);
 }
-.navigation-link.current::after {
+.meny__link.current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -370,18 +370,18 @@ body {
   border-radius: 2px;
 }
 
-.contacts-list {
+.header__contacts {
   margin-left: auto;
 }
 
-.contacts-link {
+.contacts__link {
   color: var(--text-color);
   display: flex;
   align-items: center;
 }
 
-.mail-icon,
-.phone-icon {
+.contacts__mail-icon,
+.contacts__phone-icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -398,13 +398,13 @@ body {
   background-size: cover;
 }
 
-.hero-container {
+.hero__container {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -417,7 +417,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero-btn {
+.hero__btn {
   padding: 10px;
   min-width: 216px;
   height: 50px;
@@ -435,19 +435,19 @@ body {
   align-items: center;
   letter-spacing: 0.06em;
 }
-.hero-btn:hover, .hero-btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   color: var(--main-title-color);
 }
 
-.advantages {
+.features {
   display: flex;
   gap: 30px;
 }
 
-.advantages-item {
+.features__item {
   width: calc((100% - 90px) / 4);
 }
-.advantages-item::before {
+.features__item::before {
   content: "";
   display: block;
   height: 120px;
@@ -458,23 +458,23 @@ body {
   background-size: 70px 70px;
 }
 
-.icon-antenna::before {
+.features__icon-antenna::before {
   background-image: url(../images/icons/antenna.svg);
 }
 
-.icon-clock::before {
+.features__icon-clock::before {
   background-image: url(../images/icons/clock.svg);
 }
 
-.icon-diagram::before {
+.features__icon-diagram::before {
   background-image: url(../images/icons/diagram.svg);
 }
 
-.icon-astranaut::before {
+.features__icon-astranaut::before {
   background-image: url(../images/icons/astronaut.svg);
 }
 
-.advantages-title {
+.features__title {
   color: var(--main-title-color);
   font-weight: 700;
   font-size: 14px;
@@ -484,7 +484,7 @@ body {
   margin-top: 30px;
 }
 
-.advantages-text {
+.features__text {
   color: var(--text-color);
   font-weight: 400;
   font-size: 14px;

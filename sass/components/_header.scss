@@ -1,14 +1,14 @@
-.header-container,
-.header-navigation {
+.header__container,
+.navigation {
   display: flex;
   align-items: center;
 }
 
-.header-container {
+.header__container {
   border-bottom: 1px solid #ececec;
 }
 
-.logo-header {
+.navigation__logo {
   margin-right: 93px;
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -20,8 +20,8 @@
   }
 }
 
-.navigation-list,
-.contacts-list {
+.meny,
+.contacts {
   display: flex;
   gap: 50px;
 
@@ -38,14 +38,14 @@
   }
 }
 
-.navigation-link,
-.contacts-link {
+.meny__link,
+.contacts__link {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--main-title-color);
 }
 
-.navigation-link.current {
+.meny__link.current {
   position: relative;
   color: var(--accent-color);
 
@@ -64,18 +64,18 @@
   }
 }
 
-.contacts-list {
+.header__contacts {
   margin-left: auto;
 }
 
-.contacts-link {
+.contacts__link {
   color: var(--text-color);
   display: flex;
   align-items: center;
 }
 
-.mail-icon,
-.phone-icon {
+.contacts__mail-icon,
+.contacts__phone-icon {
   margin-right: 10px;
   fill: currentColor;
 }
