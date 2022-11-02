@@ -495,23 +495,23 @@ body {
   padding-top: 0;
 }
 
-.options-list {
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.option-box {
+.portfolio__box {
   position: relative;
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
-.option-box:hover .option-title {
+.portfolio__box:hover .option-title {
   transform: translatey(0);
 }
 
-.option-title {
+.portfolio__title {
   position: absolute;
   bottom: 0;
   left: 0;
